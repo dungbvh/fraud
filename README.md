@@ -2,7 +2,7 @@
 
 # Vũ Văn Dũng - dungvvfx10285@funix.edu.vn
 
-## 1. TỔNG QUAN ĐỒ ÁN
+## TỔNG QUAN ĐỒ ÁN
 - Xây dựng model phát hiện gian lận thẻ giao dịch khống tại các merchant
 - Dạng bài toán: classification (2 nhãn là merchant giao dịch khống/merchant hoạt động bình thường)
 
