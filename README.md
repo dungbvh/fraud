@@ -45,6 +45,7 @@
 - Hyperparameter tuning với XGBoost: **Funix XGBoost hyperparameter tuning.ipynb**
 - Hyperparameter tuning với SVC: **Funix SVM hyperparameter tuning.ipynb**
 ### 4.3. Model Blending 
+- File chạy: **Funix_Model_Blending.ipynb**
 - Thực hiện modele blending:
   + ('svc', SVC(C=1000, gamma= 0.01, kernel='rbf'))
   + ('XGBClassifier', XGBClassifier(alpha=0.004016238677167677, colsample_bytree=0.3, subsample=0.6, learning_rate=0.02, max_depth=9, random_state=48, min_child_weight=2, reg_lambda=4.248186489909531))
