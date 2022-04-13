@@ -37,6 +37,8 @@
  'classifier__n_estimators': 1000}
 ## 5.  Model Evaluation (Đánh giá mô hình)
 - Đánh giá mô hình trên tập dữ liệu test: dựa trên metric là recall
+
 ![image](https://user-images.githubusercontent.com/21106518/163090307-a2f8c1f6-a16a-4b4d-b4a3-64f17935cd09.png)
-                  
+
+
 - Kết quả mô hình đặt tỉ lệ recal là 98%
