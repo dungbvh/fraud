@@ -36,13 +36,14 @@
  'classifier__min_samples_leaf': 1,
  'classifier__min_samples_split': 10,
  'classifier__n_estimators': 1000}
-### 4.2. Hyperparameter tuning với XGBoost và RandomForest
+### 4.2. Hyperparameter tuning với XGBoost, RandomForest và SVC
 - Xây dựng 2 pipepline
  + Pipeline 1: xử lý toàn bộ các cột dữ liệu kiểu số
  + Pipeline 2: xử lý code các cột dữ liệu 'CURR_NUM', 'MP_IND', 'PAY_METHOD', 'HAS_TXN_LESS_15S' theo OrdinalEncoder
 - Thực hiện hyper parameter tuning bằng Optuna
 - Hyperparameter tuning với RandomForest: **Funix RandomForest hyperparameter tuning.ipynb** 
 - Hyperparameter tuning với XGBoost: **Funix XGBoost hyperparameter tuning.ipynb**
+- Hyperparameter tuning với SVC: **Funix SVM hyperparameter tuning.ipynb**
 ### 4.3. Model Blending 
 - Thực hiện modele blending:
   + ('svc', SVC(C=1000, gamma= 0.01, kernel='rbf'))
@@ -80,8 +81,14 @@
 
 ![image](https://user-images.githubusercontent.com/21106518/163117334-90609858-e4a7-4247-bcb1-a83a6869d06d.png)
 
+### 5.1.3. SVC
+- Best param: 
+{'C': 1000, 'gamma': 0.01, 'kernel': 'rbf'}
+- Kết quả
 
-### 5.1.3. Model blending
+![image](https://user-images.githubusercontent.com/21106518/163123252-87c8bf8a-acc0-421e-b6c3-c2ad5a259128.png)
+
+### 5.1.4. Model blending
 - Kết quả thực hiện
 
 ![image](https://user-images.githubusercontent.com/21106518/163116591-f0908eb5-f33e-434a-8934-406097f1a211.png)
@@ -113,7 +120,14 @@
 
 ![image](https://user-images.githubusercontent.com/21106518/163117196-3286d507-67dc-44ef-9196-a626bbbc1976.png)
 
-### 5.2.3. Model Blending
+### 5.2.3. SVC
+- Best params
+{'C': 1000, 'gamma': 0.01, 'kernel': 'rbf'}
+- Kết quả
+
+![image](https://user-images.githubusercontent.com/21106518/163123435-0042a962-32f5-48f0-af40-4107c8c4af3e.png)
+
+### 5.2.4. Model Blending
 
 - Kết quả
 
