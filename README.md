@@ -113,4 +113,10 @@
 
 ![image](https://user-images.githubusercontent.com/21106518/163117196-3286d507-67dc-44ef-9196-a626bbbc1976.png)
 
+### 5.2.3. Model Blending
+
+- Kết quả
+
+![image](https://user-images.githubusercontent.com/21106518/163118580-dbabdb7d-c196-403b-aef8-e2bfc17e34ad.png)
+
 
