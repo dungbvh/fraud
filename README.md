@@ -135,5 +135,5 @@
 
 
 **Đánh giá**
-Cả pipeline 1 và 2, model blending đều cho kết quả tốt hơn so với model đơn lẻ là RandomForest hoặc XGBoost
+Cả pipeline 1 và 2, model blending đều cho kết quả tốt hơn so với model đơn lẻ là RandomForest/XGBoost/SVC
 
