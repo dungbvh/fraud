@@ -53,7 +53,7 @@
 ## 5.  Model Evaluation (Đánh giá mô hình)
 - Đánh giá mô hình trên tập dữ liệu test: dựa trên metric là recall
 ## 5.1. Pipepline 1
-### 5.1.1. RandomeForest
+### 5.1.1. RandomForest
 - Best params:
     {
     'max_depth': 10,
@@ -119,4 +119,7 @@
 
 ![image](https://user-images.githubusercontent.com/21106518/163118580-dbabdb7d-c196-403b-aef8-e2bfc17e34ad.png)
 
+
+**Đánh giá**
+Cả pipeline 1 và 2, model blending đều cho kết quả tốt hơn so với model đơn lẻ là RandomForest hoặc XGBoost
 
